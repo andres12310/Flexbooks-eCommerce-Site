@@ -1,0 +1,185 @@
+.background_image{
+	background-image: url('background_image.jpg');
+}
+
+.top_menu {
+	background-color:#f9f9f8;
+	font-size:36px;
+	font-family:Verdana;
+	margin: 0 auto;
+	width:80%;
+	text-align:center;
+	opacity:0.8;
+}
+
+.top_menu a {
+	padding-right:75px;
+	padding-left:75px;
+	text-decoration:none;
+	color:black;
+	float:center;
+	text-align:center;
+}
+
+.top_menu a.current {
+	color:#e6d5e8;
+	background-color:black;
+}
+
+.top_menu a:hover, button:hover{
+	background-color:black;
+	color:#fee0bc;
+}
+
+
+.dropdown-books {
+	position:relative;
+	display:inline-block;
+}
+
+.drop-categories {
+	display:none;
+	position:absolute;
+}
+
+.dropdown-books:hover .drop-categories {
+	display:block;
+	font-size:14px;
+	left-margin:-25px;
+	background-color:#f9f9f8;
+}
+
+.buy-button{
+	width:100%;
+	height:100%;
+	background:none;
+	font-size:15px;
+	border:none;
+	padding-right:75px;
+	padding-left:75px;
+	cursor: pointer;
+}
+
+/* home page css */
+.cell {  /* Each textbook item along with it's info is inside a cell with this styling  */
+	width:260px;
+	height:400px;
+	margin:10px;
+	text-align:center;
+}
+
+.grid { /* This styling is for the div element that is storing all the textbook items  */
+	background-color:#f9f9f8;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.container1 h1 {
+	font-family:Garamond;
+	letter-spacing:-1.5px;
+	text-decoration:underline;
+	color:#ac898a;
+	font-weight:normal;
+	width:80%;
+	font-size:48px;
+}
+
+.container1 h2 {
+	font-family:Garamond;
+	font-weight:bold;
+	color:#84a9a7;
+	font-size:16px;
+}
+
+.container1 h5 {
+	font-family:Verdana;
+	font-weight:normal;
+	font-size:12px;
+	color:#84a9a7;
+}
+
+.container2 h1 {
+	font-family:Garamond;
+	letter-spacing:-1.5px;
+	text-decoration:underline;
+	color:#84a9a7;
+	font-weight:normal;
+	width:80%;
+	font-size:48px;
+}
+
+.container2 h2 {
+	font-family:Garamond;
+	font-weight:bold;
+	color:#ac898a;
+	font-size:16px;
+}
+
+.container2 h5 {
+	font-family:Verdana;
+	font-weight:normal;
+	font-size:12px;
+	color:#ac898a;
+}
+
+.container3 p {
+	color:#a497a5;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+.container3 a {
+	text-decoration:none;
+	color:#a497a5;
+}
+
+.container3 a:hover {
+	background-color:black;
+	color:#fee0bc;
+}
+
+img {
+	border:1px solid #ddd;
+}
+
+.zoom {   /*This, along with .zoom:hover are the one thats are doing the image zoom when the mouse hovers over it*/
+  	transition: transform .2s;
+}
+
+.zoom:hover {
+  	transform: scale(1.15);
+}
+
+/* about us page css */
+.description-text td {
+	text-align: justify;
+	width: 1000px;
+	font-family:Verdana;
+	color:#ac898a;
+	padding:20px;
+}
+
+.team-info td {
+	text-align: center;
+	padding: 20px;
+	font-family:Verdana;
+	color:#ac898a;
+}
+
+.team-info td img {
+	align-content: center;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+li {
+  display: inline;
+  font-size: 40px;
+  margin: 30px;
+}

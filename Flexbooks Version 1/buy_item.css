@@ -1,0 +1,335 @@
+.background_image{
+	background-image: url('background_image.jpg');
+}
+
+.top_menu {
+	background-color:#f9f9f8;
+	font-size:36px;
+	font-family:Verdana;
+	margin: 0 auto;
+	width:80%;
+	text-align:center;
+	opacity:0.8;
+}
+
+.top_menu a {
+	padding-right:75px;
+	padding-left:75px;
+	text-decoration:none;
+	color:black;
+	float:center;
+	text-align:center;
+}
+
+.top_menu a.current {
+	color:#e6d5e8;
+	background-color:black;
+}
+
+.top_menu a:hover, button:hover{
+	background-color:black;
+	color:#fee0bc;
+}
+
+
+.dropdown-books {
+	position:relative;
+	display:inline-block;
+}
+
+.drop-categories {
+	display:none;
+	position:absolute;
+}
+
+.dropdown-books:hover .drop-categories {
+	display:block;
+	font-size:14px;
+	left-margin:-25px;
+	background-color:#f9f9f8;
+}
+
+.buy-button{
+	width:100%;
+	height:100%;
+	background:none;
+	font-size:15px;
+	border:none;
+	padding-right:75px;
+	padding-left:75px;
+	cursor: pointer;
+}
+
+.category-btn{
+	font-size:24px;
+	padding-left:20px!important;
+	text-align:left;
+}
+
+
+/* buy page css */
+.grid { /* This styling is for the div element that is storing all the textbook items  */
+	margin-left:285px;
+	margin-right:5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width:70%;
+	background-color:#f9f9f8;
+}
+
+.grid h1 {
+	font-family:Garamond;
+	letter-spacing:-1.5px;
+	text-decoration:underline;
+	color:#ac898a;
+	font-weight:normal;
+	width:80%;
+	font-size:48px;
+}
+
+
+.cell {  /* Each textbook item along with it's info is inside a cell with this styling  */
+	width:300px;
+	height:400px;
+	margin:25px;
+	text-align:center;
+	border: 1px solid #ddd;
+	padding-top:10px;
+
+}
+
+.cell img {
+	border: 1px solid #ddd;
+}
+
+.cell h2 {
+	font-family:Garamond;
+	font-weight:bold;
+	color:#ac898a;
+	font-size:16px;
+}
+
+.cell h5 {
+	font-family:Verdana;
+	font-weight:normal;
+	font-size:12px;
+	color:#84a9a7;
+}
+
+.zoom {   /*This, along with .zoom:hover are the one thats are doing the image zoom when the mouse hovers over it*/
+  	transition: transform .2s;
+}
+
+.zoom:hover {
+  	transform: scale(1.15);
+}
+
+h5{
+	height:10px;
+	font-size: 20px
+}
+
+.background_image{
+	background-image: url('background_image.jpg');
+}
+
+h1.title{
+	font-size: 60px;
+	text-align: center;
+}
+
+.categories_div{
+	padding-top: -10px;
+	flex-direction: column;
+	background-color:#f9f9f8;
+	width:275px;
+	height:500px;
+	margin-left:5px;
+	margin-right:5px;
+	opacity: 0.8;
+	font-family:Verdana;
+	float:left;
+	display:flex;
+	position:fixed;
+}
+
+.container{
+	display:flex;
+	margin-top:10px;
+}
+
+.indent {
+  margin-left: 30px;
+  font-size: 25px
+}
+
+.categories_title{
+	margin-left:10px;
+	font-size: 40px;
+	font-family:Garamond;
+	letter-spacing: -1px;
+	text-decoration: underline;
+	color:black;
+	text-align: center;
+}
+
+.categories_div a{
+	padding-left:10px;
+	margin-left:10px;
+	margin-bottom: -5px;
+	font-size:24px;
+	font-family:Verdana;
+	text-decoration:none;
+	color:black;
+	display:block;
+}
+
+.categories_div a.current{
+	background-color:black;
+	color:#a497a5;
+}
+
+.categories_div a:hover{
+	background-color:black;
+	color:#fee0bc;
+}
+
+.text_shadow{
+	text-shadow: 1px 1px 2px green, 0 0 25px blue, 0 0 5px red;
+}
+
+.box_shadow{
+	text-shadow: 1px 1px 2px green, 0 0 25px blue, 0 0 5px red;
+
+}
+
+.book_category_title{
+	text-align: center;
+	font-size: 50px;
+}
+
+a.category:link {
+  	text-decoration: none;
+  	color: black;
+	margin-left: 30px;
+  	font-size: 25px
+}
+
+a.category:visited{
+	color:black;
+}
+
+
+a.category:hover{
+	color: white;
+	text-decoration: underline;
+
+}
+
+a.category:active{
+	color:red;
+	text-decoration: underline;
+}
+
+
+/*item page*/
+
+label{
+	width:150px;
+	display: inline-block;
+	text-align:right;
+	padding-bottom:10px;
+	font-family:Verdana;
+	color:#84a9a7;
+	font-size:12px;
+}
+input{
+	width:200px;
+}
+
+.purchase-button{
+	font-size:16px;
+	font-family:Verdana;
+	width:200px;
+	border:2px solid lightgrey;
+}
+
+select{
+	width:150px;
+}
+
+.item-page-info { /* This styling is for the div element that is storing all the textbook items  */
+	padding:10px;
+	margin-left:285px;
+	margin-right:5px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width:570px;
+	background-color:#f9f9f8;
+
+}
+
+.item-page-info h2 {
+	font-family:Garamond;
+	letter-spacing:-1.5px;
+	color:#ac898a;
+	font-weight:normal;
+	font-size:36px;
+}
+
+.item-page-info h3 {
+	font-family:Verdana;
+	font-weight:normal;
+	font-size:12px;
+	color:#84a9a7;
+	margin-bottom: 5px;
+	margin-left:50px;
+}
+
+.purchase-form { /* This styling is for the div element that is storing all the textbook items  */
+	padding:10px;
+	margin-left:10px;
+	margin-right:5px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color:#f9f9f8;
+	width:375px;
+}
+
+.purchase-form h1 {
+	font-family:Garamond;
+	letter-spacing:-1.5px;
+	text-decoration:underline;
+	color:#ac898a;
+	font-weight:bold;
+	width:80%;
+	font-size:36px;
+}
+
+.purchase-form h2 {
+	font-family:Verdana;
+	font-weight:normal;
+	font-size:12px;
+	color:#84a9a7;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+li {
+  display: inline;
+  font-size: 40px;
+  margin: 30px;
+}

@@ -1,0 +1,98 @@
+
+.grid { /* This styling is for the div element that is storing all the textbook items  */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width:80%;
+}
+
+.cell {  /* Each textbook item along with it's info is inside a cell with this styling  */
+	width:300px;
+	height:400px;
+	margin:25px;
+	text-align:center;
+
+}
+
+.zoom {   /*This, along with .zoom:hover are the one thats are doing the image zoom when the mouse hovers over it*/
+  	transition: transform .2s;
+}
+
+.zoom:hover {
+  	transform: scale(1.15);
+}
+
+h5{
+	height:10px;
+	font-size: 20px
+}
+
+.background_image{
+	background-image: url('background_image.jpg');
+}
+
+h1.title{
+	font-size: 60px;
+	text-align: center;
+}
+
+.categories_div{
+	flex-direction: column;
+	/*background-color: #d9d7d2;
+	background-color: #d9d7d2;*/
+	width:20%;
+
+}
+
+.container{
+	display:flex;
+}
+
+.indent {
+  margin-left: 30px;
+  font-size: 25px
+}
+
+.categories_title{
+	font-size: 35px;
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px green, 0 0 25px blue, 0 0 5px red;
+}
+
+.text_shadow{
+	text-shadow: 1px 1px 2px green, 0 0 25px blue, 0 0 5px red;
+}
+
+.box_shadow{
+	text-shadow: 1px 1px 2px green, 0 0 25px blue, 0 0 5px red;
+
+}
+
+.book_category_title{
+	text-align: center;
+	font-size: 50px;
+}
+
+a:link {
+  	text-decoration: none;
+  	color: black;
+	margin-left: 30px;
+  	font-size: 25px
+}
+
+a:visited{
+	color:black;
+}
+
+
+a:hover{
+	color: white;
+	text-decoration: underline;
+
+}
+
+a:active{
+	color:red;
+	text-decoration: underline;
+}

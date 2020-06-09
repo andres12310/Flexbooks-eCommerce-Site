@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form action="../FlexbooksRestService/v1/api/orders" method="POST">
+            <label for="isbn13">Textbook ISBN-13:</label>
+            <input type="text" name="isbn13" placeholder="000-0000000000">
+            <br>
+            <label for="quantity">Quantity:</label>
+            <input style="width:30px" type="number" name="quantity" placeholder="00" onblur="calculateTotal(this.value)">
+            <br>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" placeholder="Peter">
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" placeholder="Anteater">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="peter.the.anteater@website.com">
+            <br>
+            <label for="phoneNo">Phone Number:</label>
+            <input type="number" name="phoneNo" placeholder="0000000000">
+            <br>
+            <label for="address">Address:</label>
+            <input type="text" name="address" placeholder="123 Street Name">
+            <br>
+            <label for="aptNo">Apt/Ste Number:</label>
+            <input type="text" name="aptNo" style="width:50px" placeholder="0">
+            <br>
+            <label for="zipCode">Zip Code:</label>
+            <input type="text" name="zipCode" placeholder="00000 or 00000-0000">
+            <br>
+            <label for="city">City:</label>
+            <input type="text" name="city" placeholder="Irvine">
+            <br>
+            <label for="state">State:</label>
+            <select name="state">
+                    <option value ="default"> </option> 
+                    <option value="AL">Alabama (AL)</option>
+                    <option value="AK">Alaska (AK)</option>
+                    <option value="AZ">Arizona (AZ)</option>
+                    <option value="AR">Arkansas (AR)</option>
+                    <option value="CA">California (CA)</option>
+                    <option value="CO">Colorado (CO)</option>
+                    <option value="CT">Connecticut (CT)</option>
+                    <option value="DE">Delaware (DE)</option>
+                    <option value="DC">District Of Columbia (DC)</option>
+                    <option value="FL">Florida (FL)</option>
+                    <option value="GA">Georgia (GA)</option>
+                    <option value="HI">Hawaii (HI)</option>
+                    <option value="ID">Idaho (ID)</option>
+                    <option value="IL">Illinois (IL)</option>
+                    <option value="IN">Indiana (IN)</option>
+                    <option value="IA">Iowa (IA)</option>
+                    <option value="KS">Kansas (KS)</option>
+                    <option value="KY">Kentucky (KY)</option>
+                    <option value="LA">Louisiana (LA)</option>
+                    <option value="ME">Maine (ME)</option>
+                    <option value="MD">Maryland (MD)</option>
+                    <option value="MA">Massachusetts (MA)</option>
+                    <option value="MI">Michigan (MI)</option>
+                    <option value="MN">Minnesota (MN)</option>
+                    <option value="MS">Mississippi (MS)</option>
+                    <option value="MO">Missouri (MO)</option>
+                    <option value="MT">Montana (MT)</option>
+                    <option value="NE">Nebraska (NE)</option>
+                    <option value="NV">Nevada (NV)</option>
+                    <option value="NH">New Hampshire (NH)</option>
+                    <option value="NJ">New Jersey (NJ)</option>
+                    <option value="NM">New Mexico (NM)</option>
+                    <option value="NY">New York (NY)</option>
+                    <option value="NC">North Carolina (NC)</option>
+                    <option value="ND">North Dakota (ND)</option>
+                    <option value="OH">Ohio (OH)</option>
+                    <option value="OK">Oklahoma (OK)</option>
+                    <option value="OR">Oregon (OR)</option>
+                    <option value="PA">Pennsylvania (PA)</option>
+                    <option value="RI">Rhode Island (RI)</option>
+                    <option value="SC">South Carolina (SC)</option>
+                    <option value="SD">South Dakota (SD)</option>
+                    <option value="TN">Tennessee (TN)</option>
+                    <option value="TX">Texas (TX)</option>
+                    <option value="UT">Utah (UT)</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+            </select>
+            <br>
+            <label for="shipping">Shipping Speed:</label>
+            <select name="shipping">
+                    <option value="default">Select a speed</option>
+                    <option value="Overnight">Overnight (1 day)</option>
+                    <option value="Expedited">Expedited (2 days)</option>
+                    <option value="Ground Shipping">Ground Shipping (5-6 days)</option>
+            </select>
+            <br>
+            <label for="cardnum">Credit Card Number:</label>
+            <input type="number" name="cardnum" placeholder="1111222233334444">
+            <br>
+            <label for="expDate">Card Expiration Date:</label>
+            <input type="number" style="width:50px;" name="expDate" placeholder="MMYY">
+            <br>
+            <label for="cvv">CVV:</label>
+            <input type="number" style="width:40px;" name="cvv" size="2" placeholder="0000"> 
+            <input type="submit" value="Submit">
+        </form>
+			
+    </body>
+</html>

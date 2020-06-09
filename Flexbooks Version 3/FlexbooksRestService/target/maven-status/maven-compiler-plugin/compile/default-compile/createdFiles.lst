@@ -1,0 +1,5 @@
+com\inf124\flexbooksrestservice\service\BookService.class
+com\inf124\flexbooksrestservice\model\Book.class
+com\inf124\flexbooksrestservice\db\DatabaseConnector.class
+com\inf124\flexbooksrestservice\db\DatabaseUtils.class
+com\inf124\flexbooksrestservice\BookResource.class

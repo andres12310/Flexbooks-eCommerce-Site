@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Books | Off-Da-Hook Flexbooks</title>
+        <link href="buy_item.css" rel="stylesheet" type="text/css">
+        <link href="root.css" rel="stylesheet" type="text/css">
+        <script src="file.js"></script>
+    </head>
+    <body class="background_image">
+	<div align=center>
+            <img style="width:80%; border:none;" src="./images/topBanner.png">
+        </div>
+	<div class="top_menu">
+            <a href="home.html">Home</a>
+            <div class="dropdown-books">
+                <a class="current" href="buy.html">Books</a>
+                <div class="drop-categories">
+                    <form>
+                      <button type="submit" name="all" class="buy-button">All Books</button><br>
+                      <button type="submit" name="science" class="buy-button">Science</button><br>
+                      <button type="submit" name="math" class="buy-button">Math</button><br>
+                      <button type="submit" name="english" class="buy-button">English</button><br>
+                      <button type="submit" name="social_science" class="buy-button">Social Science</button><br>
+                      <button type="submit" name="CS" class="buy-button">Comp. Science</button>
+                      <button type="submit" name="art_music" class="buy-button">Art & Music</button>
+                    </form>
+	  	</div>
+            </div>
+            <a href="aboutUs.html">About Us</a>
+	</div>
+	<div class="container">  
+            <div class="categories_div">
+  		<form>
+                    <h1 class="categories_title">Categories</h1>
+                    <button name="all" class="buy-button category-btn">All Books</button><br>
+                    <button type=name="science" class="buy-button category-btn">Science</button><br>
+                    <button type="submit" name="math" class="buy-button category-btn">Math</button><br>
+                    <button type="submit" name="english" class="buy-button category-btn">English</button><br>
+                    <button type="submit" name="social_science" class="buy-button category-btn">Social Science</button><br>
+                    <button type="submit" name="CS" class="buy-button category-btn" style="padding-left:25px;padding-right:25px;">Comp. Science<br>
+                    <button type="submit" name="art_music" class="buy-button category-btn">Art & Music</button><br>
+  		</form>
+            </div>
+            <div class="grid">
+                <h1 align="left">All Books</h1>
+                <div class="cell">
+                    <a id="0" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/CampbellBiology.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Campbell Biology</h2>
+                    <h5>Lisa A. Urry  , Michael L. Cain,...</h5>
+                    <h5>$273.32</h5>
+                </div>
+                <div class="cell">
+                    <a id="1" href="./itempage.html" onclick="setVar(this.id)">
+                            <img class="zoom" src="./images/AnimalBehavior.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Animal Behavior: Mechanisms,...</h2>
+                    <h5>Lee Drickamer, Stephen Vessey,...</h5>
+                    <h5>$215.33</h5>
+                </div>
+                <div class="cell">
+                    <a id="2" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/ChemistryTheCentralScience.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Chemistry: The Central Science</h2>
+                    <h5>Theodore E. Brown, H. Eugene...</h5>
+                    <h5>$313.32</h5>
+                </div>
+                <div class="cell">
+                    <a id="3" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/SingleVariableCalculus7thEdition.jpeg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Single-Variable Calculus</h2>
+                    <h5>James Steward</h5>
+                    <h5>$$299.95</h5>
+                </div>
+                <div class="cell">
+                    <a id="4" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/LinearAlgebraAndItsApplications.jpeg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Linear Algebra and Its App...</h2>
+                    <h5>David C. Lay, Steven R. Lay,...</h5>
+                    <h5>$206.65</h5>
+                </div>
+                <div class="cell">
+                    <a id="5" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/Precalculus10thEdition.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Precalculus (10th Edition)</h2>
+                    <h5>Michael Sullivan</h5>
+                    <h5>$259.99</h5>
+                </div>
+                <div class="cell">
+                    <a id="6" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/ActiveSkillsForReading3.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>ACTIVE Skills for Reading 3</h2>
+                    <h5>Neil J. Anderson</h5>
+                    <h5>$55.95</h5>
+                </div>
+                <div class="cell">
+                    <a id="7" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/TheBlueBookGrammarAndPunctuation.jpeg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>The Blue Book of Grammar and...</h2>
+                    <h5>Jane Straus, Lester Kaufman,...</h5>
+                    <h5>$16.95</h5>
+                </div>
+                <div class="cell">
+                    <a id="8" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/ImaginativeWriting.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Imaginative Writing (4th Edition)</h2>
+                    <h5>Janet Burroway</h5>
+                    <h5>$73.32</h5>
+                </div>
+                <div class="cell">
+                    <a id="9" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/WaysOfTheWorld.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Ways of the World: A Brief...</h2>
+                    <h5>Robert W. Strayer</h5>
+                    <h5>$115.99</h5>
+                </div>
+                <div class="cell">
+                    <a id="10" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/AmericanGovernment.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>American Government, Essentials</h2>
+                    <h5>James Q. Wilson, Jr. John J,...</h5>
+                    <h5>$217.95</h5>
+                </div>
+                <div class="cell">
+                    <a id="11" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/UnitedStatesHistory.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>United States History</h2>
+                    <h5>Holt McDougal</h5>
+                    <h5>$99.60</h5>
+                </div>
+                <div class="cell">
+                    <a id="12" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/ProgrammingTheWorldWideWeb.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Programming the World Wide...</h2>
+                    <h5>Robert W. Sebesta</h5>
+                    <h5>$153.32</h5>
+                </div>
+                <div class="cell">
+                    <a id="13" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/DesigningTheUserInterface.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Designing the User Interface</h2>
+                    <h5>Ben Shneiderman,Catherine...</h5>
+                    <h5>$166.65</h5>
+                </div>
+                <div class="cell">
+                        <a id="14" href="./itempage.html" onclick="setVar(this.id)">
+                                <img class="zoom" src="./images/DatabaseManagementSystems.jpg" alt="book", height="270" width="270">
+                        </a>
+                        <h2>Database Management Systems</h2>
+                        <h5>Raghu Ramakrishnan, Johannes...</h5>
+                        <h5>$246.43</h5>
+                </div>
+                <div class="cell">
+                    <a id="15" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/TheAnnotatedMonaLisa.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>The Annotated Mona Lisa</h2>
+                    <h5>Carol Strickland</h5>
+                    <h5>$29.99</h5> 
+                </div>
+                <div class="cell">
+                    <a id="16" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/GardenersArtThroughTheAges.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Gardner's Art Through the Ages</h2>
+                    <h5>Fred S. Kleiner</h5>
+                    <h5>$169.97</h5>
+                </div>
+                <div class="cell">
+                    <a id="17" href="./itempage.html" onclick="setVar(this.id)">
+                        <img class="zoom" src="./images/RockAndRoll.jpg" alt="book", height="270" width="270">
+                    </a>
+                    <h2>Rock and Roll: Its History and...</h2>
+                    <h5>Joe Stuessy, Scott D. Lipscomb</h5>
+                    <h5>$254.81</h5>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

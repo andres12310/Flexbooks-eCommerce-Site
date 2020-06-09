@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Books | Purchase | Off-Da-Hook Flexbooks</title>
+        <link href="buy_item.css" rel="stylesheet" type="text/css">
+        <link href="root.css" rel="stylesheet" type="text/css">
+        <script src="file.js"></script>
+    </head>
+    <body class="background_image" onload="setData()">
+	<div align=center><img style="width:80%; border:none;" src="./images/topBanner.png"></div>
+	<div class="top_menu">
+            <a href="home">Home</a>
+            <a href="aboutUs.html">About Us</a>
+	</div>
+	<div class="container">
+            <div class="categories_div">
+		<form>
+                    <h1 class="categories_title">Categories</h1>
+                    <button type="submit" name="all" class="buy-button category-btn">All Books</button><br>
+                    <button type="submit" name="science" class="buy-button category-btn">Science</button><br>
+                    <button type="submit" name="math" class="buy-button category-btn">Math</button><br>
+                    <button type="submit" name="english" class="buy-button category-btn">English</button><br>
+                    <button type="submit" name="social_science" class="buy-button category-btn">Social Science</button><br>
+                    <button type="submit" name="CS" class="buy-button category-btn" style="padding-left:25px;padding-right:25px;">Comp. Science<br>
+                    <button type="submit" name="art_music" class="buy-button category-btn">Art & Music</button><br>
+		</form>
+            </div>
+            <div class="item-page-info">
+                <center><h2 id="title_and_price">Textbook Name - $$</h2>
+                <img id="image" src="textbooktemplate.jpg" width="400" height="350"> </img></center>
+                <p id="description"> Insert textbook description here </p>
+                <center><button><a href="addToCart">Add To Cart</a></button>
+                    &emsp;&emsp;
+                    <button><a href="checkout">View Cart</a></button></center>
+            </div>
+	</div>
+		 
+    </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Off-Da-Hook Flexbooks</title>
+	<link href="root.css" rel="stylesheet" type="text/css">
+	<link href="home_aboutUs.css" rel="stylesheet" type="text/css">
+	<script src="file.js"></script>
+</head>
+<body class="background_image">
+<div align=center><img style="width:80%; border:none;" src="./images/topBanner.png"></div>
+<div class="top_menu">
+  <a class="current" href="home.html">Home</a>
+  <div class="dropdown-books"><a href="buy.php">Books</a>
+  		<div class="drop-categories">
+				<form action="buy.php" method="post">
+					<button type="submit" name="all" class="buy-button">All Books</button><br>
+					<button type="submit" name="science" class="buy-button">Science</button><br>
+					<button type="submit" name="math" class="buy-button">Math</button><br>
+					<button type="submit" name="english" class="buy-button">English</button><br>
+					<button type="submit" name="social_science" class="buy-button">Social Science</button><br>
+					<button type="submit" name="CS" class="buy-button">Comp. Science</button>
+					<button type="submit" name="art_music" class="buy-button">Art & Music</button>
+				</form>
+  		</div>
+  </div>
+  <a href="aboutUs.html">About Us</a>
+</div>
+
+<div class="container1" style="display:flex; margin-top:10px;">
+	<div class="grid">
+		<h1 align="left"><strong>Top</strong> 3 Sellers</h1>
+		<div class="cell">
+			<a id="2" href="./itempage.html" onclick="setVar(this.id)">
+				<img class="zoom" src="./images/ChemistryTheCentralScience.jpg" alt="book", height="270" width="270">
+			</a>
+				<h2>Chemistry: The Central Science</h2>
+				<h5>Theodore E. Brown, H. Eugene...</h5>
+				<h5>$313.32</h5>
+		</div>
+		<div class="cell">
+			<a id="3" href="./itempage.html" onclick="setVar(this.id)">
+				<img class="zoom" src="./images/SingleVariableCalculus7thEdition.jpeg" alt="book", height="270" width="270">
+			</a>
+			<h2>Single-Variable Calculus</h2>
+			<h5>James Steward</h5>
+			<h5>$299.95</h5>
+		</div>
+		<div class="cell">
+			<a id="4" href="./itempage.html" onclick="setVar(this.id)">
+				<img class="zoom" src="./images/LinearAlgebraAndItsApplications.jpeg" alt="book", height="270" width="270">
+			</a>
+			<h2>Linear Algebra and Its Applications</h2>
+			<h5>David C. Lay, Steven R. Lay,...</h5>
+			<h5>$206.65</h5>
+		</div>
+	</div>
+</div>
+
+<div class="container2" style="display:flex; margin-top:10px;">
+	<div class="grid">
+		<h1 align="right"><strong>Flex</strong> Your Knowledge</h1>
+		<div class="cell">
+			<a id="14" href="./itempage.html" onclick="setVar(this.id)">
+				<img class="zoom" src="./images/DatabaseManagementSystems.jpg" alt="book", height="270" width="270">
+			</a>
+				<h2>Database Management Systems, 3rd Edition</h2>
+				<h5>Raghu Ramakrishnan, Johannes Gehrke</h5>
+				<h5>$246.43</h5>
+		</div>
+		<div class="cell">
+			<a id="12" href="./itempage.html" onclick="setVar(this.id)">
+				<img class="zoom" src="./images/ProgrammingTheWorldWideWeb.jpg" alt="book", height="270" width="270">
+			</a>
+			<h2>Programming the World Wide Web (8th Edition)</h2>
+			<h5>Robert W. Sebesta</h5>
+			<h5>$152.32</h5>
+		</div>
+		<div class="cell">
+			<a id="16" href="./itempage.html" onclick="setVar(this.id)">
+				<img class="zoom" src="./images/GardenersArtThroughTheAges.jpg" alt="book", height="270" width="270">
+			</a>
+			<h2>Gardner's Art Through the Ages: A Global History (16th Edition)</h2>
+			<h5>Fred S. Kleiner</h5>
+			<h5>$169.97</h5>
+		</div>
+	</div>
+	</div>
+</div>
+
+<div class="container3" style="display:flex; margin-top:10px;">
+	<div class="grid">
+		<p><b>Created By:</b> Ukwa Akkum (68576133), Angela Do (86236858), Andres Garcia (19936980), Andy Yang (32972683)</p>
+	</div>
+</div>
+</body>
+</html>
